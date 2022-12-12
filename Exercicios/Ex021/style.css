@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+body{
+    background-color: #4DE3FA;
+    font: normal normal 1em arial, sans-serif;
+}
+header > h1{
+    margin: 0;  
+}
+header{
+    background-color: #84e6f5;
+    color: black;
+    padding: 0 10px;
+}
+header > nav{
+    padding: 1px 10px;
+    border: 1px solid black;
+}
+nav{
+    padding: 3px;
+    background-color: rgb(177, 174, 174);
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+}
+a{
+    color: blue;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+}
+main{
+    background-color: white;
+    padding: 4px 10px 10px 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.397);
+}
+
+#noticia{
+    background-color: white;
+    text-align: justify;
+}
+article{
+    margin: 0 0 10px 0;
+}
+footer{
+    font-weight: bold;
+    text-align: center;
+    background-color: black;
+    padding: 7px;
+    color: white;
+    margin: 10px 0;
+}
+footer > p {
+    margin: 0px;
+}
+
