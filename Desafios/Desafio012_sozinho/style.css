@@ -64,7 +64,7 @@ div p{
     background-size: cover;
     min-width: 100px;
     font-size: min(47px, 4vw);
-    width: 550px;
+    display: inline-block;
 }
 div#livro{
     background-image: url('imagens/background002.jpg');
