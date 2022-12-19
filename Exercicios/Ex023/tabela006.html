@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        caption{
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        td, th{
+            padding: 5px;
+            border: 1px solid rgb(53, 53, 53);
+        }
+        tr:nth-child(odd){
+            background-color: rgb(246, 221, 221);
+        }
+        div#container{
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas em tela pequena</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi natus tempora suscipit voluptate blanditiis repellat sed reprehenderit. Necessitatibus in totam, eius, reprehenderit veniam quisquam dolor, praesentium eveniet quos esse officiis!</p>
+
+    <div id="container">
+        <table>
+            <colgroup>
+                <col class="cProdutos">
+            </colgroup>
+            <caption>Tabelas Responsivas</caption>
+            <thead>
+                <tr>
+                    <th>Produtos</th>
+                    <th>Janeiro</th>
+                    <th>Fevereiro</th>
+                    <th>Março</th>
+                    <th>Abril</th>
+                    <th>Maio</th>
+                    <th>Junho</th>
+                    <th>Julho</th>
+                    <th>Agosto</th>
+                    <th>Setembo</th>
+                    <th>Outubro</th>
+                    <th>Novembro</th>
+                    <th>Dezembro</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Televisão</td>
+                    <td>01</td>
+                    <td>02</td>
+                    <td>06</td>
+                    <td>12</td>
+                    <td>17</td>
+                    <td>05</td>
+                    <td>09</td>
+                    <td>05</td>
+                    <td>03</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>Lava Roupa</td>
+                    <td>01</td>
+                    <td>02</td>
+                    <td>06</td>
+                    <td>12</td>
+                    <td>17</td>
+                    <td>05</td>
+                    <td>09</td>
+                    <td>05</td>
+                    <td>03</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>Maquina de Lavar</td>
+                    <td>01</td>
+                    <td>02</td>
+                    <td>06</td>
+                    <td>12</td>
+                    <td>17</td>
+                    <td>05</td>
+                    <td>09</td>
+                    <td>05</td>
+                    <td>03</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>20</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
